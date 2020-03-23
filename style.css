@@ -1,0 +1,32 @@
+/* ------------ Fonts ------------ */
+@font-face {
+  font-family: Catamaran-Med;
+  src: url(fonts/Catamaran-Medium.ttf);
+}
+
+@font-face {
+  font-family: Catamaran-Bold;
+  src: url(fonts/Catamaran-Bold.ttf);
+}
+/* ------------------------------ */
+
+/* --------- META --------------- */
+
+.font_cat_med{
+	font-family: Catamaran-Med;
+}
+
+/* ----------------------------- */
+
+/* ---------- Navigation --------- */
+.navbar-brand {
+	font-family: Catamaran-Bold;
+}
+.nav-link {
+	font-family: Catamaran-Med;
+}
+/* ------------------------------ */
+
+body {
+	background-color: #E8E8E8;
+}
