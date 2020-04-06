@@ -17,7 +17,9 @@ $action = $_POST['action'];
 
 //A bit of security
 $allowed_actions = array(
-	''
+	'register',
+	'login',
+	'profile'
 );
 
 if(in_array($action, $allowed_actions)){
